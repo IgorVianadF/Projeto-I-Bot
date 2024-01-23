@@ -2,7 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require("discord.js")
 
 const exampleEmbed = new EmbedBuilder()
 	.setColor(0x0099FF)
-	.setTitle('FUNCIONOU CARAI')
+	.setTitle('Tabela de comandos do GIT')
 	.setURL('https://discord.js.org/')
 	.setAuthor({ name: 'Some name', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
 	.setDescription('Some description here')
